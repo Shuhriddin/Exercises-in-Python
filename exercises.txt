@@ -1,0 +1,66 @@
++ 1. Переворачивание букв в словах: Введите текст, и программа перевернет буквы в каждом слове, сохранив порядок слов. Пример: "hello world" => "olleh dlrow"
+
++ 2. Генерация ряда Фибоначчи: Введите число n, и программа сгенерирует ряд Фибоначчи из n чисел. Пример: 5 => [0, 1, 1, 2, 3]
+
++ 3. Преобразование чисел в слова: Введите число, и программа вернет его текстовое представление. Пример: 123 => "сто двадцать три"
+
++ 4. Проверка анаграмм: Программа принимает два слова и проверяет, являются ли они анаграммами. Пример: "listen" и "silent" являются анаграммами.
+
++ 5. Определение палиндрома: Программа проверяет, является ли введенное слово или число палиндромом (читается одинаково в обоих направлениях). Пример: "radar" или 121 => палиндром.
+
++ 6. Подсчет слов в тексте: Программа считает, сколько раз каждое слово встречается в тексте. Пример: "hello world hello" => {"hello": 2, "world": 1}
+
++ 7. Переворачивание числа: Программа принимает число и возвращает его в обратном порядке. Пример: 12345 => 54321
+
++ 8. Подсчет гласных и согласных: Программа считает количество гласных (а, е, и, о, у) и согласных букв в введенном слове.
+
++ 9. Задача "FizzBuzz" на Python: Выведите числа от 1 до 100, заменяя числа, кратные 3, на "Fizz", числа, кратные 5, на "Buzz", а кратные 3 и 5 одновременно — на "FizzBuzz".
+
++ 10. Подсчет пробелов в тексте: Программа считает, сколько пробелов содержится в тексте.
+
+
+- 1 -
+Matn ichidagi harflarni teskari qilish:
+Matnni kiriting va har bir so'zning ichidagi harflarni teskari qilib, so'zlarning o'rnini saqlab qoling.
+Masalan: "hello world" => "olleh dlrow"
+Fibonacci qatorini hosil qilish:
+
+- 2 -
+Foydalanuvchidan n sonini kiriting, va shu son miqdoridagi Fibonacci qatorini hosil qiling.
+Masalan: 5 => [0, 1, 1, 2, 3]
+Raqamlarni so'z bilan yozish:
+
+- 3 -
+Foydalanuvchi kiritgan raqamni (masalan, 123) matn ko'rinishida qaytaring (masalan: "bir yuz yigirma uch").
+Anagram tekshirish:
+
+- 4 -
+Ikki so'zni qabul qilib, ularning anagram bo'lish-bo'lmasligini aniqlaydigan funksiya yozing (masalan, "listen" va "silent" anagramlar hisoblanadi).
+Palindromni aniqlash:
+
+- 5 -
+Foydalanuvchi kiritgan so'z yoki raqam palindrom (teskari o'qiganda ham bir xil) bo'lish-bo'lmasligini aniqlaydigan dastur yozing.
+Masalan: "radar" yoki 121 => palindrom.
+
+- 6 -
+Matn ichidan so'zlarni sanash:
+Matndan har bir so'z qanchalik ko'p takrorlanganini aniqlaydigan dastur yozing.
+Masalan: "hello world hello" => {"hello": 2, "world": 1}
+Sonlarni teskari aylantirish:
+
+- 7 -
+Foydalanuvchi kiritgan raqamni teskari qilib qaytaradigan funksiya yozing.
+Masalan: 12345 => 54321
+
+- 8 -
+So'z ichidagi unli va undosh harflarni sanash:
+Foydalanuvchi kiritgan so'z ichidagi unli (a, e, i, o, u) va undosh harflar sonini aniqlaydigan dastur yozing.
+
+- 9 -
+Pythonda "FizzBuzz" muammosi:
+1 dan 100 gacha bo'lgan sonlar ichida 3 ga bo'linadigan sonlarni "Fizz", 5 ga bo'linadiganlarini "Buzz" deb, 3 va 5 ga bo'linadigan sonlarni esa "FizzBuzz" deb chiqaring.
+Matn ichidagi bo'shliqlarni hisoblash:
+
+- 10 -
+Matnda nechta bo'shliq (space) borligini hisoblab beruvchi dastur yozing.
+Bu kabi vazifalar orqali dasturlash bo'yicha amaliy ko'nikmalaringizni mustahkamlab borishingiz mumkin!
