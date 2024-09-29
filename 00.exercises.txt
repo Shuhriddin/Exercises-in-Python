@@ -18,6 +18,67 @@
 
 + 10. Подсчет пробелов в тексте: Программа считает, сколько пробелов содержится в тексте.
 
+== PART SECOND ==
+
++ 11. Сортировка слов по алфавиту: Отсортируйте слова в строке, введённой пользователем, по алфавиту и верните результат. Пример:
+
+    input: "hello from the other side"
+    output: "from hello other side the"
+
++ 12. Проверка числа Армстронга:
+    Проверьте, является ли введённое пользователем число числом Армстронга. (Число Армстронга — это число, равное сумме кубов его цифр.) Пример:
+
+    input: 153
+    output: True
+    (153 = 1³ + 5³ + 3³)
+
++ 13. Подсчёт количества букв:
+    Посчитайте количество каждой буквы в строке, введённой пользователем. Пример:
+    input: "hello world"
+    output: {"h": 1, "e": 1, "l": 3, "o": 2, "w": 1, "r": 1, "d": 1}
+
++ 14. Удаление повторяющихся слов:
+    Удалите повторяющиеся слова в строке, оставив только одно вхождение каждого. Пример:
+    input: "this is is a test test"
+    output: "this is a test"
+
++ 15. Нахождение максимального числа:
+    Напишите программу, которая находит самое большое число в последовательности чисел, введённых пользователем. Пример:
+    input: [3, 5, 7, 2, 8]
+    output: 8
+
++ 16. Преобразование букв в числа:
+    Замените буквы в строке их ASCII кодами. Пример:
+    input: "abc"
+    output: [97, 98, 99]
+
++ 17. Выделение составных чисел:
+    Найдите все составные числа в данной последовательности чисел и верните их в виде списка. (Составные числа — это числа, которые не являются простыми.) Пример:
+    input: [4, 5, 6, 7, 8]
+    output: [4, 6, 8]
+
++ 18. Подсчёт палиндромов:
+    Определите, сколько палиндромов содержится в строке, введённой пользователем. Пример:
+    input: "radar level kayak racecar"
+    output: 4
+
+19. Проверка баланса скобок:
+    Проверьте, сбалансированы ли открытые и закрытые скобки ((), [], {}) в строке, введённой пользователем. Пример:
+    input: "(a + b) * (c / d)"
+    output: True
+
++ 20. Сортировка чисел по убыванию:
+    Отсортируйте числа в списке в порядке убывания. Пример:
+    input: [1, 5, 3, 2, 8, 6]
+    output: [8, 6, 5, 3, 2, 1]
+
+
+
+
+
+
+
+
 
 - 1 -
 Matn ichidagi harflarni teskari qilish:
@@ -63,4 +124,76 @@ Matn ichidagi bo'shliqlarni hisoblash:
 
 - 10 -
 Matnda nechta bo'shliq (space) borligini hisoblab beruvchi dastur yozing.
-Bu kabi vazifalar orqali dasturlash bo'yicha amaliy ko'nikmalaringizni mustahkamlab borishingiz mumkin!
+
+# PART 2
+
+- 11 -
+ So‘zlarni alfavit bo‘yicha tartiblash:
+Foydalanuvchi kiritgan jumladagi so‘zlarni alfavit bo‘yicha tartiblash va natijani qaytarish. Misol:
+
+input: "hello from the other side"
+output: "from hello other side the"
+
+- 12 -
+Armstrong sonini tekshirish:
+Foydalanuvchi kiritgan son Armstrong soni ekanligini tekshirish. (Armstrong soni o‘z raqamlarining kublari yig‘indisiga teng bo‘lgan son.) Misol:
+
+input: 153
+output: True
+(153 = 1³ + 5³ + 3³)
+
+- 13 -
+Harflar sonini hisoblash:
+Foydalanuvchi kiritgan matndagi harflar sonini hisoblang. Har bir harfning nechta borligini aniqlang. Misol:
+
+input: "hello world"
+output: {"h": 1, "e": 1, "l": 3, "o": 2, "w": 1, "r": 1, "d": 1}
+
+- 14 -
+Takrorlanadigan so‘zlarni o‘chirish:
+Foydalanuvchi kiritgan matnda takrorlanadigan so‘zlarni bir marta qoldirib, qolganlarini o‘chirish. Misol:
+
+input: "this is is a test test"
+output: "this is a test"
+
+- 15 -
+Raqamlar orasidagi eng katta raqamni topish:
+Foydalanuvchi kiritgan raqamlar qatoridagi eng kattasini aniqlaydigan dastur yozing. Misol:
+
+input: [3, 5, 7, 2, 8]
+output: 8
+
+- 16 -
+Harflarni raqamlarga aylantirish:
+Matndagi harflarni ASCII kodlari bilan almashtiring. Misol:
+
+input: "abc"
+output: [97, 98, 99]
+
+- 17 -
+Murakkab sonlarni ajratish:
+Berilgan son qatoridagi barcha murakkab sonlarni ajratib olib, ularning ro‘yxatini qaytaring. (Murakkab sonlar — tub bo‘lmagan sonlar.) Misol:
+
+input: [4, 5, 6, 7, 8]
+output: [4, 6, 8]
+
+- 18 - 
+Palindromlar sonini aniqlash:
+Foydalanuvchi kiritgan matndagi so‘zlardan nechta palindrom so‘z borligini aniqlang. Misol:
+
+input: "radar level kayak racecar"
+output: 4
+
+- 19 -
+Matnda qavslarning muvozanatini tekshirish:
+Berilgan stringda ochilgan va yopilgan qavslar ((), [], {}) muvozanatli ekanligini tekshiring. Misol:
+
+input: "(a + b) * (c / d)"
+output: True
+
+- 20 -
+Sonlarni ortma-ort tartibda ajratish:
+Berilgan ro‘yxatdagi sonlarni ortma-ort tartibda qaytaradigan dastur yozing. Misol:
+
+input: [1, 5, 3, 2, 8, 6]
+output: [8, 6, 5, 3, 2, 1]
